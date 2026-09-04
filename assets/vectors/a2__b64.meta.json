@@ -1,0 +1,1 @@
+{"in_channels":1,"out_channels":1,"num_samples":2048,"sample_rate":48000,"prewarm":true,"prewarm_samples":6347,"max_block":64,"has_loudness":true,"loudness":-26.3839,"schedule":[64]}

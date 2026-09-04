@@ -1,0 +1,13 @@
+[package]
+name = "valverig-nam"
+version = "0.0.1"
+edition = "2024"
+rust-version = "1.88"
+description = "Pure-Rust Neural Amp Modeler (.nam) inference, allocation-free in the audio callback"
+license = "MIT"
+repository = "https://github.com/ValveRig/valverig-nam"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+thiserror = "2"
